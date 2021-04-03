@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__section">
+            <div class="section__element_1">
+                <div class="element_1__wrapper">
+                    <div class="element_1__item1">
+                        <svg width="120" height="16" viewBox="0 0 120 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                            <path d="M16.0841 0.994374C14.4889 1.20837 14.0984 1.42236 13.2247 3.55569C12.5827 5.11948 9.29303 13.0602 8.12478 16.0001H7.34044C5.9339 12.1845 3.88534 6.63717 2.52514 3.1277C1.86324 1.37297 1.45286 1.13594 0 0.994374V0.335938H6.05305V0.994374C4.28909 1.18532 4.19312 1.46844 4.52737 2.34746C5.12308 4.07585 6.86387 8.79355 8.36307 12.731C9.62729 9.67256 11.1993 5.81742 12.3344 2.82153C12.8573 1.4454 12.5727 1.23141 10.6168 0.994374V0.335938H16.0973L16.0841 0.994374Z" fill="black"/>
+                            <path d="M26.2273 15.74V15.0816C28.1799 14.8709 28.3718 14.7754 28.3718 12.7771V3.3417C28.3718 1.30384 28.1799 1.20837 26.2273 0.994374V0.335938H32.6146V0.994374C30.6289 1.20837 30.4436 1.30384 30.4436 3.3417V12.754C30.4436 14.7919 30.6355 14.8643 32.6146 15.0586V15.717L26.2273 15.74Z" fill="black"/>
+                            <path d="M56.8763 15.9309C56.5686 15.9309 56.3038 15.9045 55.996 15.8815C54.2552 15.763 53.3253 15.3119 52.2762 13.8436C51.3958 12.6354 50.5387 11.1407 49.7742 9.93252C49.2976 9.17202 48.9899 9.03046 47.7885 9.03046H46.9512V12.7539C46.9512 14.7687 47.216 14.8873 49.1222 15.0584V15.7169H42.7449V15.0584C44.7306 14.8477 44.8894 14.7523 44.8894 12.7539V3.29548C44.8894 1.28067 44.628 1.20824 42.7449 0.990956V0.33252H48.8211C50.5619 0.33252 51.7301 0.546515 52.6336 1.13911C53.1546 1.47522 53.5784 1.94092 53.8628 2.49008C54.1473 3.03924 54.2825 3.65279 54.2552 4.26996C54.2552 6.30782 52.9314 7.58848 51.1807 8.34569C51.611 9.08313 52.6336 10.67 53.3517 11.7366C53.9198 12.5939 54.5479 13.4102 55.2315 14.1794C55.6859 14.7115 56.2935 15.0919 56.9723 15.2691L56.8763 15.9309ZM48.0831 8.214C49.3241 8.214 50.1085 8.02635 50.7042 7.52923C51.6341 6.84117 52.028 5.88314 52.028 4.61235C52.028 2.07408 50.3368 1.15227 48.5034 1.15227C47.8117 1.15227 47.4046 1.24445 47.2391 1.38931C47.024 1.55392 46.9512 1.79095 46.9512 2.40659V8.214H48.0831Z" fill="black"/>
+                            <path d="M84.0204 0.994374C82.498 1.16227 81.995 1.3993 81.9255 2.48902C81.899 3.24622 81.8527 4.24375 81.8527 6.43963V15.9475H80.9459L70.7493 3.55569V9.48162C70.7493 11.615 70.8188 12.6816 70.8685 13.3697C70.9148 14.5779 71.5105 14.9335 73.2248 15.075V15.7335H67.4366V15.075C68.9126 14.9565 69.4851 14.601 69.5811 13.4289C69.6506 12.6684 69.7002 11.6018 69.7002 9.4454V3.41413C69.7002 2.75569 69.6506 2.3705 69.2237 1.84705C68.7703 1.25445 68.2705 1.11289 67.1023 0.994374V0.335938H70.6765L80.7804 12.2602V6.44623C80.7804 4.24376 80.7341 3.22318 80.6612 2.51206C80.5884 1.4454 80.0424 1.11289 78.1361 0.994374V0.335938H84.0204V0.994374Z" fill="black"/>
+                            <path d="M103.993 15.7399V15.0815C105.541 14.8939 105.73 14.6568 105.399 13.7646C105.068 12.8725 104.611 11.6544 104.112 10.163H98.9621C98.5815 11.2297 98.2241 12.1383 97.8899 13.126C97.367 14.6667 97.7012 14.8544 99.6538 15.1013V15.7597H94.1501V15.1013C95.6526 14.9136 96.0332 14.7457 96.8672 12.6124L101.798 0.167929L102.563 0.0263672C104.062 4.07904 105.707 8.5597 107.196 12.6618C107.957 14.7227 108.172 14.9136 109.864 15.1013V15.7597L103.993 15.7399ZM101.61 3.10456C100.845 5.14242 100.034 7.2988 99.3195 9.17205H103.777L101.61 3.10456Z" fill="black"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0">
+                            <rect width="120" height="16" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </div>
+                    <div class="element_1__item2">
+                        <div class="item2__wrapper">
+                            <h1>Ukrainian <br> brand</h1>
+                            <div class="item2__text">
+                                <p>
+                                    of women’s<br>clothing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element_1__item3">
+                        <div>
+                            <button>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="3" width="18" height="1" fill="black"/>
+                                    <rect x="1" y="9" width="18" height="1" fill="black"/>
+                                    <rect x="1" y="15" width="18" height="1" fill="black"/>
+                                    </svg>                                    
+                            </button>
+                        </div>
+                        <div class="icon">
+                            <a href="#">
+                                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8619 2.15927C15.1324 1.4031 14.1808 1 13.1723 1C12.1636 1 11.2119 1.40304 10.482 2.1592L9.00001 3.69555L7.51812 2.1593C6.78862 1.40324 5.83656 1 4.82806 1C3.81953 1 2.86746 1.4032 2.13809 2.15925C0.620537 3.73231 0.620798 6.31559 2.1379 7.88757L9.00001 15L15.862 7.88772C17.3791 6.31575 17.3796 3.73232 15.8619 2.15927Z" stroke="black"/>
+                                    </svg>                                    
+                            </a>
+                            <a href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="1" width="16" height="16" rx="5" stroke="black"/>
+                                    <rect x="5.44434" y="5.44434" width="7" height="7" rx="3.5" stroke="black"/>
+                                    <rect x="12.5557" y="3.6665" width="1" height="1" rx="0.5" stroke="black"/>
+                                    </svg>                                    
+                            </a>
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 6.07861L16 6.07861L17 18.0002L4 18.0002L5 6.07861Z" stroke="black"/>
+                                <path d="M13.6767 7.96078L13.6767 5.07895C13.6767 3.37849 12.2982 2 10.5977 2V2C8.89729 2 7.5188 3.37849 7.5188 5.07895L7.5188 7.96078" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="drop-down">
+                            <select>
+                                <option>ru</option>
+                                <option>en</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__element_2">
+                <div class="element_2__wrapper">
+                    <svg width="65" height="20" viewBox="0 0 65 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1031 5C9.25829 5 7.17549 7.09333 7.17549 10C7.17549 11.1333 7.49299 12.1333 8.05179 12.9467H0.977899C0.431799 12.9467 0 13.4133 0 13.9733V15H12.1031H12.1158C14.9606 15 17.0307 12.9067 17.0307 10C17.018 7.09333 14.9606 5 12.1031 5ZM12.0904 13.2533C10.3886 13.2533 9.14399 11.9067 9.14399 10C9.14399 8.12 10.3759 6.74667 12.0904 6.74667C13.8176 6.74667 15.0495 8.12 15.0495 10C15.0495 11.9067 13.8176 13.2533 12.0904 13.2533ZM28.6899 10C28.6899 12.9067 26.6325 15 23.775 15C20.9302 15 18.8474 12.9067 18.8474 10C18.8474 7.09333 20.9302 5 23.775 5C26.6198 5 28.6899 7.09333 28.6899 10ZM20.8159 10C20.8159 11.9067 22.0478 13.2533 23.7623 13.2533C25.4895 13.2533 26.7214 11.9067 26.7214 10C26.7214 8.12 25.4895 6.74667 23.7623 6.74667C22.0478 6.74667 20.8159 8.12 20.8159 10ZM39.0918 9.25333V13.9733H39.0537V15H38.0758C37.5424 15 37.0979 14.5467 37.0979 13.9733V9.25333C37.0979 7.70667 36.1835 6.69333 34.7738 6.69333C33.3641 6.69333 32.4497 7.72 32.4497 9.25333V15H31.4718C30.9384 15 30.4939 14.5467 30.4939 13.9733V9.25333C30.4939 6.72 32.2338 5 34.7738 5C37.3392 5 39.0918 6.72 39.0918 9.25333ZM49.4923 5.82667V5H48.5271C47.981 5 47.5492 5.46667 47.5492 6.02667V10.76C47.5492 12.2933 46.6094 13.2933 45.1997 13.2933C43.79 13.2933 42.8756 12.2933 42.8756 10.76V9.58667V6.22667V5.82667V5H41.9103C41.3642 5 40.9324 5.45333 40.9324 6.02667V10.7733C40.9324 13.2933 42.6724 15 45.2251 15C47.7651 15 49.505 13.28 49.505 10.7733V8.36V6.22667L49.4923 5.82667ZM58.1673 6.85333C58.7388 5.69333 59.9072 5 61.3931 5C63.5775 5 65.0126 6.53333 64.9999 8.86667V15H64.022C63.4886 15 63.0441 14.5467 63.0441 13.9733V8.81333C63.0441 7.52 62.2821 6.64 61.101 6.64C59.9199 6.64 59.1325 7.52 59.1325 8.81333V12.3067V13.7733V14.1733V14.8533V15H58.1673C57.6339 15 57.1894 14.5467 57.1894 13.9733V8.81333C57.1894 7.52 56.402 6.64 55.2209 6.64C54.0398 6.64 53.2778 7.52 53.2778 8.81333V13.96V14.9867H52.2999C51.7665 14.9867 51.3219 14.5333 51.3219 13.96V8.86667C51.3219 6.53333 52.7444 5 54.9415 5C56.4274 5 57.5958 5.69333 58.1673 6.85333Z" fill="black"/>
+                        </svg>                        
+                    <div class="wrapper__item">
+                        <div class="text">
+                            <p>Online store</p>
+                            <p>2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+    <main>
+        <section class="main">
+            <span class="main__span">
+            </span>
+            <div class="main__section">
+                <div class="main__container1">
+                    <div class="container1__block1">
+                        <div class="block1__p">
+                            <p>1920</p>
+                        </div>
+                        <div class="block1__photo">
+                            <picture>
+                                <source srcset="./img/picture/main/1920.png" type="image/jpeg"
+                                    media="(min-width:1921px)">
+                                <source srcset="./img/picture/main/1366x1024.png" type="image/jpeg"
+                                    media="(min-width:1202px)">
+                                <source srcset="./img/picture/main/960x768.png" type="image/jpeg"
+                                    media="(min-width:960px)">
+                                <source srcset="./img/picture/main/768x960.png" type="image/jpeg"
+                                    media="(min-width:415px)">
+                                <source srcset="./img/picture/main/360x640.jpg" type="image/jpeg"
+                                    media="(max-width:415px)">
+                                <img src="./img/picture/main/1920.png" alt="loading...">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="container1__block2">
+                        <div class="block2__info">
+                            <div class="info__1">
+                                <p>FILTERS</p>
+                            </div>
+                            <div class="info__2">
+                                <div class="item item1">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                        </svg>                                        
+                                    <p>material</p>
+                                </div>
+                                <div class="item item2">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                        </svg>                                        
+                                    <p>color</p>
+                                </div>
+                                <div class="item item3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                        </svg>                                        
+                                    <p>size</p>
+                                </div>
+                            </div>
+                            <div class="info3">
+                                <p>Clear all</p>
+                                <svg class="icon_close" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.72949 5L15.0044 14.1013L14.2981 14.7944L5.02321 5.69306L5.72949 5Z" fill="black"/>
+                                    <path d="M5 14.3066L14.2749 5.20534L14.9812 5.89841L5.70628 14.9997L5 14.3066Z" fill="black"/>
+                                    </svg>
+                            </div>
+                        </div>
+                        <div class="block2__info2">
+                            <p>2</p>
+                            <hr>
+                            <p class="info2__p">4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__container2">
+                    <h2>Main target</h2>
+                    <div class="container2__text">
+                        <p>Основная деятельность заказчика такая. У него есть такие проблемы. При создании нового
+                            дизайна учитывались такие факторы - фактор1, фактор2 и фактор3. </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="fashion">
+            <div class="fashion__container1">
+                <h2 class="container2__h2">The world of <br> fashion</h2>
+            </div>
+            <div class="fashion__wrapper">
+                <div class="fashion__container2">
+                    <div class="fashion__specifications">
+                        <div class="specifications__1 specifications">
+                            <p class="specifications__firstText">size</p>
+                            <p>S / M</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>   
+                        </div>
+                        <div class="specifications__2 specifications">
+                            <p class="specifications__firstText">style</p>
+                            <p>casual</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>   
+                        </div>
+                        <div class="specifications__3 specifications">
+                            <p class="specifications__firstText">color</p>
+                            <p>blue</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>                                
+                        </div>
+                    </div>
+                    <div class="fashion__img">
+                        <picture>
+                            <source srcset="./img/picture/fashion/1/1920.png" type="image/jpeg"
+                                media="(min-width:1921px)">
+                            <source srcset="./img/picture/fashion/1/1366x1024.png" type="image/jpeg"
+                                media="(min-width:1201px)">
+                            <source srcset="./img/picture/fashion/1/960x768.png" type="image/jpeg"
+                                media="(min-width:960px)">
+                            <source srcset="./img/picture/fashion/1/768x960.png" type="image/jpeg"
+                                media="(min-width:415px)">
+                            <source srcset="./img/picture/fashion/1/360x640.jpg" type="image/jpeg"
+                                media="(max-width:415px)">
+                            <img src="./img/picture/fashion/1/1920.png" alt="loading...">
+                        </picture>
+                    </div>
+                </div>
+                <div class="fashion__container3">
+                    <div class="container3__price">
+                        <div class="price__container1">
+                            <div class="container1__wrapper1">
+                                <p>is woven from stories</p>
+                            </div>
+                            <div class="container1__wrapper2">
+                                <p>PRODUCT CARD</p>
+                            </div>
+                        </div>
+                        <div class="price__container2">
+                            <picture>
+                                <source srcset="./img/picture/fashion/2/1920.png" type="image/jpeg"
+                                    media="(min-width:1921px)">
+                                <source srcset="./img/picture/fashion/2/1366x1024.png" type="image/jpeg"
+                                    media="(min-width:1201px)">
+                                <source srcset="./img/picture/fashion/2/960x768.png" type="image/jpeg"
+                                    media="(min-width:960px)">
+                                <source srcset="./img/picture/fashion/2/768x960.png" type="image/jpeg"
+                                    media="(min-width:415px)">
+                                <source srcset="./img/picture/fashion/2/360x640.jpg" type="image/jpeg"
+                                    media="(max-width:415px)">
+                                <img src="./img/picture/fashion/2/1920.png" alt="loading...">
+                            </picture>
+                            <div class="container2__colors">
+                                <div class="color">
+                                    <button>
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#EEDBD5"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="color">
+                                    <button>
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="10" height="10" fill="#82BDCF"/>
+                                            </svg>                                            
+                                    </button>
+                                </div>
+                                <div class="color">
+                                    <button>
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="10" height="10" fill="#9C1744"/>
+                                            </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container2__name">
+                                <p class="name">Название товара может быть длинное</p>
+                            </div>
+                            <div class="container2__cost">
+                                <p>1150 грн</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="colors">
+            <div class="colors__container1">
+                <div class="container1__header1">
+                    <div class="header1__dark">
+                        <p>DARK</p>
+                    </div>
+                    <h2>Color style for <br> project</h2>
+                    <p class="text">some text will be here</p>
+                </div>
+                <div class="container1__header2">
+                    <h3>Colors</h3>
+                    <p>
+                        Основная деятельность заказчика такая. У него есть такие проблемы. При создании нового дизайна
+                        учитывались такие факторы - фактор1, фактор2 и фактор3.
+                    </p>
+                </div>
+            </div>
+            <div class="colors__container2">
+                <div class="container2__color1">
+                    <div class="color">
+                        <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="130" height="60" fill="#898989"/>
+                            </svg>                            
+                        <p>#898989</p>
+                    </div>
+                    <div class="color color2">
+                        <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="130" height="60" fill="#B7B7B7"/>
+                            </svg>                            
+                        <p>#B7B7B7</p>
+                    </div>
+                    <div class="color color3">
+                        <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="130" height="60" fill="black"/>
+                            </svg>
+                    </div>
+                </div>
+                <div class="container2__color2">
+                    <div class="color2__wrapper">
+                        <div class="color">
+                            <svg width="280" height="70" viewBox="0 0 280 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="280" height="70" fill="#9A0034"/>
+                                </svg>
+                            <div class="color__text">
+                                <p>#9A0034</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color2__color_wrapper">
+                        <div class="color">
+                            <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="130" height="60" fill="#D7969E"/>
+                                </svg>
+                            <p>#D7969E</p>
+                        </div>
+                        <div class="color color2">
+                            <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="130" height="60" fill="#E8D8D9"/>
+                                </svg>
+                            <p>#E8D8D9</p>
+                        </div>
+                        <div class="color color3">
+                            <svg width="130" height="60" viewBox="0 0 130 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="130" height="60" fill="#DEDCDC"/>
+                                </svg>
+                        </div>
+                    </div>
+                    <div class="container2__color2__right">
+                        <p>BRIGHT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="typography">
+            <div class="typography__container1">
+                <picture>
+                    <source srcset="./img/picture/typography/1920.png" type="image/jpeg" 
+                    media="(min-width:1921px)">
+                    <source srcset="./img/picture/typography/1366x1024.png" type="image/jpeg" 
+                    media="(min-width:1201px)">
+                    <source srcset="./img/picture/typography/960x768.png" type="image/jpeg" 
+                    media="(min-width:960px)">
+                    <source srcset="./img/picture/typography/768x960.png" type="image/jpeg" 
+                    media="(min-width:415px)">
+                    <source srcset="./img/picture/typography/360x640.jpg" type="image/jpeg" 
+                    media="(max-width:415px)">
+                    <img src="./img/picture/typography/1920.png" alt="loading...">
+                </picture>
+                <p>geometric</p>
+            </div>
+            <div class="typography__container2">
+                <div class="container2__contentBlock1">
+                    <h3>Typography</h3>
+                    <p>regular <span class="medium">medium</span></p>
+                </div>
+                <div class="container2__contentBlock2">
+                    <h2>Cera Pro</h2>
+                    <div class="Cerapixels">
+                        <p>16px</p>
+                        <p>24px</p>
+                    </div>
+                </div>
+                <div class="container2__contentBlock3">
+                    <h4>Font</h4>
+                    <div class="FontText__wrapper">
+                        <div class="FontText FontText1">
+                            <p>
+                                Основная деятельность заказчика такая. У него есть такие проблемы. При создании нового
+                                дизайна учитывались такие факторы - фактор1, фактор2 и фактор3.
+                            </p>
+                        </div>
+                        <div class="FontText FontText2">
+                            <p>
+                                В итоге получился интерфейс ключевыми фишками которого стали фишка1 и фишка2
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bold">
+            <div class="bold__background">
+                <span class="bold__span">
+                </span>
+            </div>
+            <div class="bold__container1">
+                <p>bold</p>
+            </div>
+            <div class="bold__container2">
+                <p>Aa</p>
+                <p>Bb</p>
+                <p>Ee</p>
+                <p>Cc</p>
+                <p>Dd</p>
+            </div>
+        </section>
+        <section class="grid">
+            <div class="grid__container1 grid__container">
+                <h2>Grid</h2>
+                <picture>
+                    <source srcset="./img/picture/grid/1920.svg" type="image/jpeg" media="(min-width:1921px)">
+                    <source srcset="./img/picture/grid/1366x1024.svg" type="image/jpeg" media="(min-width:1201px)">
+                    <source srcset="./img/picture/grid/960x768.svg" type="image/jpeg" media="(min-width:960px)">
+                    <source srcset="./img/picture/grid/768x960.svg" type="image/jpeg" media="(min-width:415px)">
+                    <source srcset="./img/picture/grid/360x640.svg" type="image/jpeg" media="(max-width:415px)">
+                    <img src="./img/picture/grid/1920.svg" alt="loading...">
+                </picture>
+            </div>
+            <div class="grid__container2 grid__container">
+                <p>12 columns grid</p>
+            </div>
+        </section>
+
+        <section class="mainPage">
+            <div class="mainPage__container1 ">
+                <h2>Main page</h2>
+                <p>
+                    Мы создали приятный, удобный и самое важное - понятный интерфейс, что бы пользователи с легкостью
+                    могли сделать то, за чем пришли на сайт.
+                </p>
+            </div>
+            <div class="mainPage__container2 ">
+                <img src="./img/svg/virna_logo_5.svg" alt="">                
+            </div>
+        </section>
+
+        <section class="newСollection">
+            <div class="newСollection__container1">
+                <nav class="newСollection__nav">
+                    <div class="newСollection__Menu">
+                        <p>MENU</p>
+                        <button>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="3" width="18" height="1" fill="black"/>
+                                <rect x="1" y="9" width="18" height="1" fill="black"/>
+                                <rect x="1" y="15" width="18" height="1" fill="black"/>
+                                </svg>                                
+                        </button>
+                    </div>
+                </nav>
+                <picture>
+                    <source srcset="./img/picture/newСollection/1920.jpg" type="image/jpeg" 
+                    media="(min-width:1921px)">
+                    <source srcset="./img/picture/newСollection/1366x1024.jpg" type="image/jpeg"
+                        media="(min-width:1201px)">
+                    <source srcset="./img/picture/newСollection/960x768.jpg" type="image/jpeg" media="(min-width:960px)">
+                    <source srcset="./img/picture/newСollection/768x960.jpg" type="image/jpeg" media="(min-width:415px)">
+                    <source srcset="./img/picture/newСollection/360x640.jpg" type="image/jpeg" media="(max-width:415px)">
+                    <img src="./img/picture/newСollection/1920.jpg" alt="loading...">
+                </picture>
+            </div>
+            <div class="newСollection__container2">
+                <div class="container2__nav">
+                    <div class="nav__item">
+                        <button>Каталог</button>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                            </svg>                            
+                    </div>
+                    <button class="nav__button2">О нас</button>
+                    <p>Sale</p>
+                    <a class="number" href="tel:0800332512">0 800 <span>332 512</span></a>
+                </div>
+                <div class="container2__main">
+                    <h2>новая <br> коллекция</h2>
+                    <div class="container2__wrapper">
+                        <p>уже на сайте</p>
+                        <div class="wrapper__element">
+                            <p>Start screen</p>
+                        </div>
+                    </div>
+                    <button class="button__look">посмотреть</button>
+                    <div class="button__scroll">
+                        <button>
+                            <svg width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.01873 0.208108C4.29768 -0.0693695 4.74994 -0.0693695 5.02889 0.208108C5.30783 0.485586 5.30783 0.935467 5.02889 1.21294L2.43872 3.78947H29.2859C29.6804 3.78947 30.0002 4.10759 30.0002 4.5C30.0002 4.89241 29.6804 5.21053 29.2859 5.21053H2.43872L5.02889 7.78706C5.30783 8.06453 5.30783 8.51441 5.02889 8.79189C4.74994 9.06937 4.29768 9.06937 4.01873 8.79189L0.209209 5.00242C-0.0697365 4.72494 -0.0697365 4.27506 0.209209 3.99758L4.01873 0.208108Z" fill="#D7969E"/>
+                            </svg>
+                        </button>
+                        <button>
+                            <svg width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.9814 8.79189C25.7025 9.06937 25.2502 9.06937 24.9713 8.79189C24.6924 8.51441 24.6924 8.06453 24.9713 7.78706L27.5615 5.21053L0.714272 5.21052C0.319783 5.21052 -1.48997e-05 4.89241 -1.48654e-05 4.5C-1.48311e-05 4.10758 0.319783 3.78947 0.714272 3.78947L27.5615 3.78947L24.9713 1.21294C24.6924 0.935466 24.6924 0.485585 24.9713 0.208108C25.2502 -0.0693697 25.7025 -0.0693697 25.9814 0.208109L29.791 3.99758C30.0699 4.27506 30.0699 4.72494 29.791 5.00242L25.9814 8.79189Z" fill="#9A0034"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="main__Social">
+                        <div class="Social__element">
+                            <p>Social</p>
+                        </div>
+                        <div class="Social__link">
+                            <a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1578 18C10.1048 18 10.0518 18 9.99847 17.9998C8.74428 18.0028 7.58542 17.9709 6.45842 17.9023C5.42518 17.8395 4.48203 17.4824 3.73078 16.8699C3.0059 16.2788 2.51088 15.4796 2.25953 14.4947C2.04077 13.6373 2.02918 12.7956 2.01807 11.9816C2.01001 11.3974 2.00171 10.7053 2 10.0014C2.00171 9.29465 2.01001 8.60251 2.01807 8.0184C2.02918 7.20444 2.04077 6.36276 2.25953 5.50521C2.51088 4.52035 3.0059 3.72115 3.73078 3.13009C4.48203 2.51753 5.42518 2.16048 6.45854 2.09761C7.58554 2.02913 8.74464 1.99715 10.0015 2.0002C11.2561 1.99751 12.4146 2.02913 13.5416 2.09761C14.5748 2.16048 15.518 2.51753 16.2692 3.13009C16.9942 3.72115 17.4891 4.52035 17.7405 5.50521C17.9592 6.36264 17.9708 7.20444 17.9819 8.0184C17.99 8.60251 17.9984 9.29465 18 9.99851V10.0014C17.9984 10.7053 17.99 11.3974 17.9819 11.9816C17.9708 12.7955 17.9593 13.6372 17.7405 14.4947C17.4891 15.4796 16.9942 16.2788 16.2692 16.8699C15.518 17.4824 14.5748 17.8395 13.5416 17.9023C12.4623 17.968 11.3536 18 10.1578 18ZM9.99847 16.7498C11.2323 16.7527 12.3651 16.7216 13.4656 16.6547C14.2469 16.6072 14.9243 16.3536 15.4793 15.9011C15.9922 15.4828 16.3455 14.9056 16.5292 14.1857C16.7114 13.4719 16.7219 12.7056 16.732 11.9645C16.7399 11.3843 16.7482 10.697 16.75 9.99998C16.7482 9.30283 16.7399 8.6157 16.732 8.03549C16.7219 7.2944 16.7114 6.52804 16.5292 5.81418C16.3455 5.0942 15.9922 4.51705 15.4793 4.09872C14.9243 3.64632 14.2469 3.39278 13.4656 3.3453C12.3651 3.27828 11.2323 3.2474 10.0014 3.25008C8.76784 3.24715 7.63486 3.27828 6.53435 3.3453C5.75307 3.39278 5.07568 3.64632 4.52073 4.09872C4.00777 4.51705 3.65448 5.0942 3.47076 5.81418C3.28862 6.52804 3.27812 7.29428 3.26799 8.03549C3.26006 8.61619 3.25176 9.30381 3.25005 10.0014C3.25176 10.696 3.26006 11.3838 3.26799 11.9645C3.27812 12.7056 3.28862 13.4719 3.47076 14.1857C3.65448 14.9056 4.00777 15.4828 4.52073 15.9011C5.07568 16.3535 5.75307 16.6071 6.53435 16.6545C7.63486 16.7216 8.76808 16.7528 9.99847 16.7498ZM9.96869 13.9062C7.8148 13.9062 6.06229 12.1539 6.06229 9.99998C6.06229 7.84604 7.8148 6.09372 9.96869 6.09372C12.1227 6.09372 13.8751 7.84604 13.8751 9.99998C13.8751 12.1539 12.1227 13.9062 9.96869 13.9062ZM9.96869 7.34372C8.50403 7.34372 7.31234 8.53537 7.31234 9.99998C7.31234 11.4646 8.50403 12.6562 9.96869 12.6562C11.4335 12.6562 12.625 11.4646 12.625 9.99998C12.625 8.53537 11.4335 7.34372 9.96869 7.34372ZM14.3126 4.84371C13.7949 4.84371 13.3751 5.26339 13.3751 5.78122C13.3751 6.29904 13.7949 6.71872 14.3126 6.71872C14.8304 6.71872 15.2501 6.29904 15.2501 5.78122C15.2501 5.26339 14.8304 4.84371 14.3126 4.84371Z" fill="black"/>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.6611 2.00333L11.5024 2C9.07718 2 7.5099 3.54552 7.5099 5.93762V7.75313H5.33943C5.15188 7.75313 5 7.89927 5 8.07954V10.71C5 10.8903 5.15205 11.0363 5.33943 11.0363H7.5099V17.6738C7.5099 17.854 7.66178 18 7.84933 18H10.6812C10.8687 18 11.0206 17.8539 11.0206 17.6738V11.0363H13.5584C13.7459 11.0363 13.8978 10.8903 13.8978 10.71L13.8989 8.07954C13.8989 7.99299 13.863 7.91009 13.7995 7.84884C13.7359 7.78758 13.6493 7.75313 13.5593 7.75313H11.0206V6.2141C11.0206 5.47438 11.204 5.09886 12.2065 5.09886L13.6607 5.09836C13.8481 5.09836 14 4.95222 14 4.77211V2.32958C14 2.14964 13.8483 2.00366 13.6611 2.00333Z" stroke="black"/>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.1588 4.79961L2.1588 4.7996C2.8943 3.80385 4.22196 3.5 6.30379 3.5H13.6961C15.7298 3.5 17.03 3.78439 17.7688 4.72028L2.1588 4.79961ZM2.1588 4.79961C1.80646 5.27662 1.64924 5.84244 1.57389 6.45313M2.1588 4.79961L1.57389 6.45313M1.57389 6.45313C1.49998 7.05206 1.49999 7.74473 1.5 8.50005M1.57389 6.45313L1.5 8.50005M1.5 8.50005L1.5 8.52402M1.5 8.50005L1.5 8.52402M1.5 8.52402V11.476M1.5 8.52402V11.476M1.5 11.476C1.5 12.978 1.65726 14.2752 2.40127 15.1807M1.5 11.476L2.40127 15.1807M2.40127 15.1807C3.16712 16.1126 4.4367 16.5 6.30379 16.5M2.40127 15.1807L6.30379 16.5M6.30379 16.5H13.6961M6.30379 16.5H13.6961M13.6961 16.5C15.4837 16.5 16.6466 16.2408 17.4308 15.441M13.6961 16.5L17.4308 15.441M17.4308 15.441C18.2289 14.627 18.5 13.3638 18.5 11.476M17.4308 15.441L18.5 11.476M18.5 11.476V8.52402M18.5 11.476V8.52402M18.5 8.52402C18.5 7.71137 18.4899 6.98692 18.4006 6.3687M18.5 8.52402L18.4006 6.3687M18.4006 6.3687C18.3107 5.74598 18.1347 5.18377 17.7688 4.72032L18.4006 6.3687ZM12.0288 9.97072L12.0288 9.97076L8.67691 11.8376C8.67462 11.8354 8.67157 11.8318 8.66854 11.8261C8.66368 11.8169 8.66005 11.8044 8.66005 11.7897V8.06243C8.66005 8.04785 8.66366 8.03538 8.66851 8.02619C8.67157 8.0204 8.67464 8.01674 8.67692 8.01454L12.0288 9.8694L12.0288 9.86941C12.0297 9.86991 12.0345 9.87293 12.0397 9.88208C12.045 9.8913 12.0491 9.90432 12.0492 9.91994C12.0492 9.93567 12.045 9.94876 12.0398 9.95799C12.0346 9.96718 12.0297 9.97022 12.0288 9.97072ZM8.67996 11.8403C8.68075 11.8405 8.68077 11.8407 8.68002 11.8402L8.67996 11.8403Z" stroke="black"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="production">
+            <div class="production__background">
+                <span class="production__span">
+                </span>
+            </div>
+            <div class="production__section">
+                <div class="production__container1">
+                    <h2>Our own <br> production </h2>
+                    <div class="container1__text">
+                        <p>of women’s <br> clothing</p>
+                    </div>
+                </div>
+                <div class="production__container2">
+                    <div class="container2__element1">
+                        <div class="element1__SALE">
+                            <p>SALE</p>
+                            <svg width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.9815 0.208108C25.7025 -0.0693695 25.2503 -0.0693695 24.9713 0.208108C24.6924 0.485586 24.6924 0.935467 24.9713 1.21294L27.5615 3.78947H0.714286C0.319797 3.78947 0 4.10759 0 4.5C0 4.89241 0.319797 5.21053 0.714286 5.21053H27.5615L24.9713 7.78706C24.6924 8.06453 24.6924 8.51441 24.9713 8.79189C25.2503 9.06937 25.7025 9.06937 25.9815 8.79189L29.791 5.00242C30.0699 4.72494 30.0699 4.27506 29.791 3.99758L25.9815 0.208108Z" fill="#9A0034"/>
+                                </svg>                                
+                            <p>up to 50 %</p>
+                        </div>
+                        <div class="element1__Suits">
+                            <p>Suits</p>
+                        </div>
+                    </div>
+                    <div class="container2__element2">
+                        <div class="element2__list">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>
+                            <p>exchange</p>
+                        </div>
+                        <div class="element2__list element2__list2">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>
+                            <p>return</p>
+                        </div>
+                        <div class="element2__list">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>                                
+                            <p>free delivery</p>
+                        </div>
+                    </div>
+                    <div class="container2__element3">
+                        <picture>
+                            <source srcset="./img/picture/production/1920.png" type="image/jpeg"
+                                media="(min-width:1921px)">
+                            <source srcset="./img/picture/production/1366x1024.png" type="image/jpeg"
+                                media="(min-width:1201px)">
+                            <source srcset="./img/picture/production/960x768.png" type="image/jpeg"
+                                media="(min-width:960px)">
+                            <source srcset="./img/picture/production/768x960.png" type="image/jpeg"
+                                media="(min-width:415px)">
+                            <source srcset="./img/picture/production/360x640.png" type="image/jpeg"
+                                media="(max-width:415px)">
+                            <img src="./img/picture/production/1920.png" alt="loading...">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="catalog__wrapper1">
+                <h2>Catalog</h2>
+                <p>
+                    Для удобного поиска мы создали каталог. <br> Основной фишкой стали фишка 1 и фишка 2
+                </p>
+            </div>
+            <div class="catalog__wrapper2">
+                <div class="wrapper2__Container1">
+                    <div class="Container1__dimensions">
+                        <p>XS</p>
+                        <p>S</p>
+                        <p>M</p>
+                        <p>L</p>
+                    </div>
+                    <div class="Container1__filter">
+                        <p>filter</p>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                            </svg>                            
+                    </div>
+                    <div class="Container1__pictureWrapper">
+                        <div class="Costumes">
+                            <p>COSTUMES</p>
+                        </div>
+                        <div class="pictureWrapper1">
+                            <picture>
+                                <source srcset="./img/picture/catalog/1/1920.png" type="image/jpeg"
+                                    media="(min-width:1921px)">
+                                <source srcset="./img/picture/catalog/1/1366x1024.png" type="image/jpeg"
+                                    media="(min-width:1201px)">
+                                <source srcset="./img/picture/catalog/1/960x768.png" type="image/jpeg"
+                                    media="(min-width:960px)">
+                                <source srcset="./img/picture/catalog/1/768x960.png" type="image/jpeg"
+                                    media="(min-width:415px)">
+                                <source srcset="./img/picture/catalog/1/360x640.png" type="image/jpeg"
+                                    media="(max-width:415px)">
+                                <img src="./img/picture/catalog/1/1920.png" alt="loading...">
+                            </picture>
+                            <div class="picture__information1">
+                                <div class="color__switcher1">
+                                    <button>
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="10" height="10" fill="#808080"/>
+                                            </svg>                                            
+                                    </button>
+                                    <button>
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="10" height="10" fill="#64391A"/>
+                                            </svg>                                            
+                                    </button>
+                                </div>
+                                <p class="picture__name1">
+                                    Название товара может быть длинное и даже в две строки
+                                </p>
+                                <div>
+                                    <div class="price1">
+                                        <p>1600 грн</p>
+                                        <p class="crossed-outPrice1"><s>2300 грн</s></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper2__Container2">
+                    <div class="pictureWrapper2">
+                        <div class="pictureWrapper2__SALE">
+                            <div class="wrapper__dresses">
+                                <div class="dresses">
+                                    <p>DRESSES</p>
+                                </div>
+                            </div>
+                            <div class="SALE">
+                                <p>SALE</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.4927 4.10175L13.4926 4.10187L12 5.64924L10.5075 4.10199L10.5075 4.10195C9.5032 3.06112 8.18402 2.5 6.78507 2.5C5.38611 2.5 4.06691 3.06105 3.06277 4.10191C0.978983 6.26191 0.979226 9.79795 3.0626 11.9567L11.6402 20.8472L12 21.2201L12.3598 20.8472L20.9372 11.9569C20.9373 11.9569 20.9373 11.9568 20.9373 11.9568C23.0207 9.79811 23.0211 6.26193 20.9372 4.10194C19.9329 3.06095 18.6143 2.5 17.2153 2.5C15.8162 2.5 14.4975 3.06086 13.4927 4.10175Z" fill="#B3B3B3" stroke="white"/>
+                                    </svg>                                    
+                            </div>
+                        </div>
+                        <div class="pictureWrapper2__picture">
+                            <svg class="pointer" width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.01873 8.79189C4.29768 9.06937 4.74994 9.06937 5.02889 8.79189C5.30783 8.51441 5.30783 8.06453 5.02889 7.78706L2.43872 5.21053L29.2859 5.21053C29.6804 5.21053 30.0002 4.89241 30.0002 4.5C30.0002 4.10759 29.6804 3.78948 29.2859 3.78948L2.43872 3.78947L5.02889 1.21294C5.30783 0.935467 5.30783 0.485585 5.02889 0.208109C4.74994 -0.0693695 4.29768 -0.0693696 4.01873 0.208109L0.209209 3.99758C-0.0697365 4.27506 -0.0697365 4.72494 0.209209 5.00242L4.01873 8.79189Z" fill="black"/>
+                                </svg>                                
+                            <picture>
+                                <source srcset="./img/picture/catalog/2/1920.png" type="image/jpeg"
+                                    media="(min-width:1921px)">
+                                <source srcset="./img/picture/catalog/2/1366x1024.png" type="image/jpeg"
+                                    media="(min-width:1201px)">
+                                <source srcset="./img/picture/catalog/2/960x768.png" type="image/jpeg"
+                                    media="(min-width:960px)">
+                                <source srcset="./img/picture/catalog/2/768x960.png" type="image/jpeg"
+                                    media="(min-width:415px)">
+                                <source srcset="./img/picture/catalog/2/360x640.png" type="image/jpeg"
+                                    media="(max-width:415px)">
+                                <img src="./img/picture/catalog/2/1920.png" alt="loading...">
+                            </picture>
+                        </div>
+                        <div class="picture__information2">
+                            <div class="color__switcher2">
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#A64D79"/>
+                                        </svg>                                            
+                                </button>
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#22402A"/>
+                                        </svg>                                            
+                                </button>
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#295494"/>
+                                        </svg>                                            
+                                </button>
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#F8DADD"/>
+                                        </svg>                                            
+                                </button>
+                            </div>
+                            <p class="picture__name2">
+                                Название товара может быть длинное и даже в две строки
+                            </p>
+                            <div class="price2">
+                                <p>579 грн</p>
+                                <p><s class="crossed-outPrice2">950 грн</s></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__wrapper3">
+                <div class="wrapperr3__Container1">
+                    <div class="Container1__element1">
+                        <div class="SortBy">
+                            <p>Sort by</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.942 7L14 8.05676L9.05104 13L6 9.95256L7.05795 8.8958L9.05104 10.8865L12.942 7Z" fill="black"/>
+                                </svg>                                
+                        </div>
+                        <svg width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.9815 0.208108C25.7025 -0.0693695 25.2503 -0.0693695 24.9713 0.208108C24.6924 0.485586 24.6924 0.935467 24.9713 1.21294L27.5615 3.78947H0.714286C0.319797 3.78947 0 4.10759 0 4.5C0 4.89241 0.319797 5.21053 0.714286 5.21053H27.5615L24.9713 7.78706C24.6924 8.06453 24.6924 8.51441 24.9713 8.79189C25.2503 9.06937 25.7025 9.06937 25.9815 8.79189L29.791 5.00242C30.0699 4.72494 30.0699 4.27506 29.791 3.99758L25.9815 0.208108Z" fill="black"/>
+                            </svg>                            
+                    </div>
+                    <div class="Container1__element2">
+                        <p>New</p>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.8619 4.15927C16.1324 3.4031 15.1808 3 14.1723 3C13.1636 3 12.2119 3.40304 11.482 4.1592L10 5.69555L8.51812 4.1593C7.78862 3.40324 6.83656 3 5.82806 3C4.81953 3 3.86746 3.4032 3.13809 4.15925C1.62054 5.73231 1.6208 8.31559 3.1379 9.88757L10 17L16.862 9.88772C18.3791 8.31575 18.3796 5.73232 16.8619 4.15927Z" fill="#9A0034"/>
+                            </svg>                            
+                    </div>
+                </div>
+                <div class="wrapperr3__Container2">
+                    <div class="OUTERWEAR">
+                        <p>OUTERWEAR</p>
+                    </div>
+                    <div class="pictureWrapper3">
+                        <picture>
+                            <source srcset="./img/picture/catalog/3/1920.png" type="image/jpeg"
+                                media="(min-width:1921px)">
+                            <source srcset="./img/picture/catalog/3/1366x1024.png" type="image/jpeg"
+                                media="(min-width:1201px)">
+                            <source srcset="./img/picture/catalog/3/960x768.png" type="image/jpeg"
+                                media="(min-width:960px)">
+                            <source srcset="./img/picture/catalog/3/768x960.png" type="image/jpeg"
+                                media="(min-width:415px)">
+                            <source srcset="./img/picture/catalog/3/360x640.png" type="image/jpeg"
+                                media="(max-width:415px)">
+                            <img src="./img/picture/catalog/3/1920.png" alt="loading...">
+                        </picture>
+                        <div class="picture__information3">
+                            <div class="color__switcher3">
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#BBBBBB"/>
+                                        </svg>                                            
+                                </button>
+                                <button>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="10" height="10" fill="#8B2252"/>
+                                        </svg>                                            
+                                </button>
+                            </div>
+                            <p class="picture__name3">
+                                Название товара может быть длинное и даже в две строки
+                            </p>
+                            <div class="price3">
+                                <p>1235 грн</p>
+                                <p><s class="crossed-outPrice3">1900 грн</s></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="adaptiveBlock1">
+            <div class="adaptiveBlock1__header">
+                <h2>Adaptive design</h2>
+                <p>
+                    Важно было создать интерфейс, который однаково хорошо работает на разных устройствах.
+                </p>
+            </div>
+            <div class="Wrapper__adaptiveBlock1">
+                <div class="adaptiveBlock1__background">
+                    <span class="background1__span">
+                    </span>
+                </div>
+                <div class="adaptiveBlock1__background2">
+                    <span class="background1__span2">
+                    </span>
+                </div>
+                <div class="adaptiveBlock1__section">
+                    <div class="adaptiveBlock1__container1">
+                        <div class="container1__element1">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.77825 3.8121C1.07387 5.57882 1.07403 8.469 2.77807 10.2347C2.77809 10.2348 2.77811 10.2348 2.77813 10.2348L9.64018 17.3472L10 17.7201L10.3598 17.3472L17.2217 10.2349C17.2218 10.2349 17.2218 10.2349 17.2218 10.2349C18.9259 8.46917 18.9263 5.57885 17.2217 3.81212C16.3998 2.96018 15.3191 2.5 14.1723 2.5C13.0253 2.5 11.9445 2.9601 11.1222 3.81195L11.1221 3.81207L10 4.97535L8.87799 3.81217L8.87794 3.81212C8.05604 2.96031 6.97489 2.5 5.82806 2.5C4.68123 2.5 3.60004 2.96025 2.77825 3.8121ZM2.77825 3.8121L3.13017 4.15161L2.77825 3.8121Z" stroke="black"/>
+                                </svg>                                
+                            <div class="element1__text">
+                                <p>Own production of women’s clothing</p>
+                                <svg width="30" height="9" viewBox="0 0 30 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.9815 0.208108C25.7025 -0.0693695 25.2503 -0.0693695 24.9713 0.208108C24.6924 0.485586 24.6924 0.935467 24.9713 1.21294L27.5615 3.78947H0.714286C0.319797 3.78947 0 4.10759 0 4.5C0 4.89241 0.319797 5.21053 0.714286 5.21053H27.5615L24.9713 7.78706C24.6924 8.06453 24.6924 8.51441 24.9713 8.79189C25.2503 9.06937 25.7025 9.06937 25.9815 8.79189L29.791 5.00242C30.0699 4.72494 30.0699 4.27506 29.791 3.99758L25.9815 0.208108Z" fill="black"/>
+                                    </svg>                                    
+                            </div>
+                        </div>
+                        <div class="container1__element2">
+                            <div class="element2__wrapper1">
+                                <p>Mobile version</p>
+                            </div>
+                            <p class="SALE">SALE</p>
+                        </div>
+                    </div>
+                    <div class="adaptiveBlock1__container2">
+                        <picture>
+                            <source srcset="./img/picture/AdaptiveDesign/1/1920.png" type="image/jpeg"
+                                media="(min-width:1921px)">
+                            <source srcset="./img/picture/AdaptiveDesign/1/1366x1024.png" type="image/jpeg"
+                                media="(min-width:1201px)">
+                            <source srcset="./img/picture/AdaptiveDesign/1/960x768.png" type="image/jpeg"
+                                media="(min-width:960px)">
+                            <source srcset="./img/picture/AdaptiveDesign/1/768x960.png" type="image/jpeg"
+                                media="(min-width:415px)">
+                            <source srcset="./img/picture/AdaptiveDesign/1/360x640.png" type="image/jpeg"
+                                media="(max-width:415px)">
+                            <img src="./img/picture/AdaptiveDesign/1/1920.png" alt="loading...">
+                        </picture>
+                        <div class="container2__text2">
+                            <p>START SCRIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="adaptiveBlock2">
+
+            <div class="adaptiveBlock2__background">
+                <span class="background2__span">
+                </span>
+            </div>
+            <div class="adaptiveBlock2__background2">
+                <span class="background2__span2">
+                </span>
+            </div>
+            <div class="adaptiveBlock2__section">
+                <div class="adaptiveBlock2__container1">
+                    <div class="CATALOG">
+                        <p>CATALOG</p>
+                    </div>
+                    <picture>
+                        <source srcset="./img/picture/AdaptiveDesign/2/1920.png" type="image/jpeg"
+                            media="(min-width:1921px)">
+                        <source srcset="./img/picture/AdaptiveDesign/2/1366x1024.png" type="image/jpeg"
+                            media="(min-width:1201px)">
+                        <source srcset="./img/picture/AdaptiveDesign/2/960x768.png" type="image/jpeg"
+                            media="(min-width:960px)">
+                        <source srcset="./img/picture/AdaptiveDesign/2/768x960.png" type="image/jpeg"
+                            media="(min-width:415px)">
+                        <source srcset="./img/picture/AdaptiveDesign/2/360x640.jpg" type="image/jpeg"
+                            media="(max-width:415px)">
+                        <img src="./img/picture/AdaptiveDesign/2/1920.png" alt="loading...">
+                    </picture>
+                </div>
+                <div class="adaptiveBlock2__container2">
+                    <div class="container2__wrapper1">
+                        <div class="wrapper1__element1">
+                            <select class="drop-down_list1">
+                                <option>Categories</option>
+                                <option>Some thing</option>
+                            </select>
+                            <div>
+                                <select class="drop-down_list2">
+                                    <option>Filters</option>
+                                    <option>Some thing</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="wrapper1__element2">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1 14L7 14L7 8L1.5 8L1 8L1 14ZM1 7L1.5 7L7 7L7 2L7 0.999999L1 0.999999L1 7ZM8 8L8 14L14 14L14 8L13.5 8L8 8ZM14 7L13.5 7L8 7L8 2L8 0.999999L14 1L14 7ZM14 15L8 15L7 15L1 15L0 15L8.74228e-08 14L1.22392e-06 0.999999L1.31134e-06 -1.31134e-06L1 -1.22392e-06L14 -8.74228e-08L15 0L15 1L15 14L15 15L14 15Z"
+                                    fill="black" />
+                            </svg>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="14.5" y="14.5" width="14" height="14" transform="rotate(-180 14.5 14.5)"
+                                    stroke="black" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="container2__wrapper2">
+                        <div class="wrapper2__element1">
+                            <button>
+                                <svg width="23" height="7" viewBox="0 0 23 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M3.08105 0.161862C3.2949 -0.053954 3.64164 -0.053954 3.8555 0.161862C4.06936 0.377678 4.06936 0.727585 3.8555 0.943401L1.86971 2.94736L22.4524 2.94736C22.7548 2.94736 23 3.19478 23 3.49999C23 3.8052 22.7548 4.05262 22.4524 4.05262L1.86969 4.05262L3.8555 6.0566C4.06936 6.27241 4.06936 6.62232 3.8555 6.83814C3.64164 7.05395 3.2949 7.05395 3.08105 6.83814L0.160393 3.89077C-0.0534668 3.67495 -0.0534668 3.32505 0.160393 3.10923L3.08105 0.161862Z"
+                                        fill="#A8A8A8" />
+                                </svg>
+                            </button>
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>...</li>
+                                <li>5</li>
+                                <li>6</li>
+                            </ul>
+                            <button>
+                                <svg class="svgbutton"  width="23" height="7" viewBox="0 0 23 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19.919 6.83814C19.7051 7.05395 19.3584 7.05395 19.1445 6.83814C18.9306 6.62232 18.9306 6.27241 19.1445 6.0566L21.1303 4.05264L0.547622 4.05264C0.245179 4.05264 -2.79297e-07 3.80522 -3.05979e-07 3.50001C-3.32661e-07 3.1948 0.245179 2.94738 0.547622 2.94738L21.1303 2.94738L19.1445 0.9434C18.9306 0.727584 18.9306 0.377676 19.1445 0.161861C19.3584 -0.0539558 19.7051 -0.0539558 19.919 0.161861L22.8396 3.10923C23.0535 3.32504 23.0535 3.67495 22.8396 3.89077L19.919 6.83814Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="wrapper2__element2">
+                            <p>Mobile version</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container1">
+            <div class="container1__element1">
+                <picture>
+                    <source srcset="./img/picture/footer/1920.png" type="image/jpeg"
+                        media="(min-width:1921px)">
+                    <source srcset="./img/picture/footer/1366x1024.png" type="image/jpeg"
+                        media="(min-width:1201px)">
+                    <source srcset="./img/picture/footer/960x768.png" type="image/jpeg"
+                        media="(min-width:960px)">
+                    <source srcset="./img/picture/footer/768x960.png" type="image/jpeg"
+                        media="(min-width:415px)">
+                    <source srcset="./img/picture/footer/360x640.png" type="image/jpeg"
+                        media="(max-width:415px)">
+                    <img src="./img/picture/footer/1920.png" alt="loading...">
+                </picture>
+            </div>
+            <div class="container1__element2">
+                <svg width="65" height="20" viewBox="0 0 65 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.1031 5C9.25829 5 7.17549 7.09333 7.17549 10C7.17549 11.1333 7.49299 12.1333 8.05179 12.9467H0.977899C0.431799 12.9467 0 13.4133 0 13.9733V15H12.1031H12.1158C14.9606 15 17.0307 12.9067 17.0307 10C17.018 7.09333 14.9606 5 12.1031 5ZM12.0904 13.2533C10.3886 13.2533 9.14399 11.9067 9.14399 10C9.14399 8.12 10.3759 6.74667 12.0904 6.74667C13.8176 6.74667 15.0495 8.12 15.0495 10C15.0495 11.9067 13.8176 13.2533 12.0904 13.2533ZM28.6899 10C28.6899 12.9067 26.6325 15 23.775 15C20.9302 15 18.8474 12.9067 18.8474 10C18.8474 7.09333 20.9302 5 23.775 5C26.6198 5 28.6899 7.09333 28.6899 10ZM20.8159 10C20.8159 11.9067 22.0478 13.2533 23.7623 13.2533C25.4895 13.2533 26.7214 11.9067 26.7214 10C26.7214 8.12 25.4895 6.74667 23.7623 6.74667C22.0478 6.74667 20.8159 8.12 20.8159 10ZM39.0918 9.25333V13.9733H39.0537V15H38.0758C37.5424 15 37.0979 14.5467 37.0979 13.9733V9.25333C37.0979 7.70667 36.1835 6.69333 34.7738 6.69333C33.3641 6.69333 32.4497 7.72 32.4497 9.25333V15H31.4718C30.9384 15 30.4939 14.5467 30.4939 13.9733V9.25333C30.4939 6.72 32.2338 5 34.7738 5C37.3392 5 39.0918 6.72 39.0918 9.25333ZM49.4923 5.82667V5H48.5271C47.981 5 47.5492 5.46667 47.5492 6.02667V10.76C47.5492 12.2933 46.6094 13.2933 45.1997 13.2933C43.79 13.2933 42.8756 12.2933 42.8756 10.76V9.58667V6.22667V5.82667V5H41.9103C41.3642 5 40.9324 5.45333 40.9324 6.02667V10.7733C40.9324 13.2933 42.6724 15 45.2251 15C47.7651 15 49.505 13.28 49.505 10.7733V8.36V6.22667L49.4923 5.82667ZM58.1673 6.85333C58.7388 5.69333 59.9072 5 61.3931 5C63.5775 5 65.0126 6.53333 64.9999 8.86667V15H64.022C63.4886 15 63.0441 14.5467 63.0441 13.9733V8.81333C63.0441 7.52 62.2821 6.64 61.101 6.64C59.9199 6.64 59.1325 7.52 59.1325 8.81333V12.3067V13.7733V14.1733V14.8533V15H58.1673C57.6339 15 57.1894 14.5467 57.1894 13.9733V8.81333C57.1894 7.52 56.402 6.64 55.2209 6.64C54.0398 6.64 53.2778 7.52 53.2778 8.81333V13.96V14.9867H52.2999C51.7665 14.9867 51.3219 14.5333 51.3219 13.96V8.86667C51.3219 6.53333 52.7444 5 54.9415 5C56.4274 5 57.5958 5.69333 58.1673 6.85333Z"
+                        fill="black" />
+                </svg>
+            </div>
+        </div>
+        <div class="footer__container2">
+            <h2>Thank you</h2>
+            <div class="container2__text">
+                <p>for watching</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
